@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+    <children>
+        <Label fx:id="result" layoutX="22.0" layoutY="6.0" prefHeight="46.0" prefWidth="249.0" style="-fx-background-color: #dfdcd9;" textFill="#3a3333" wrapText="true">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <HBox layoutX="15.0" layoutY="64.0" prefHeight="53.0" prefWidth="270.0" spacing="5.0">
+            <children>
+                <Button mnemonicParsing="false" onAction="#processNumbers" prefHeight="35.0" prefWidth="60.0" text="7">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#processNumbers" prefHeight="35.0" prefWidth="60.0" text="8">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#processNumbers" prefHeight="35.0" prefWidth="60.0" text="9">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#processOperators" prefHeight="35.0" prefWidth="60.0" text="/" textFill="#d87202">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Button>
+            </children>
+            <padding>
+                <Insets left="10.0" right="10.0" />
+            </padding>
+        </HBox>
+        <HBox layoutX="15.0" layoutY="117.0" prefHeight="53.0" prefWidth="270.0" spacing="5.0">
+            <children>
+                <Button mnemonicParsing="false" onAction="#processNumbers" prefHeight="35.0" prefWidth="60.0" text="4">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#processNumbers" prefHeight="35.0" prefWidth="60.0" text="5">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#processNumbers" prefHeight="35.0" prefWidth="60.0" text="6">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#processOperators" prefHeight="35.0" prefWidth="60.0" text="*" textFill="#d87202">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Button>
+            </children>
+            <padding>
+                <Insets left="10.0" right="10.0" />
+            </padding>
+        </HBox>
+        <HBox layoutX="15.0" layoutY="170.0" prefHeight="53.0" prefWidth="270.0" spacing="5.0">
+            <children>
+                <Button mnemonicParsing="false" onAction="#processNumbers" prefHeight="35.0" prefWidth="60.0" text="1">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#processNumbers" prefHeight="35.0" prefWidth="60.0" text="2">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#processNumbers" prefHeight="35.0" prefWidth="60.0" text="3">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#processOperators" prefHeight="35.0" prefWidth="60.0" text="-" textFill="#d87202">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Button>
+            </children>
+            <padding>
+                <Insets left="10.0" right="10.0" />
+            </padding>
+        </HBox>
+        <HBox layoutX="15.0" layoutY="223.0" prefHeight="53.0" prefWidth="270.0" spacing="5.0">
+            <children>
+                <Button mnemonicParsing="false" onAction="#processNumbers" prefHeight="35.0" prefWidth="60.0" text="0">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#processNumbers" prefHeight="35.0" prefWidth="60.0" text=".">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#processOperators" prefHeight="35.0" prefWidth="60.0" text="=" textFill="#d87202">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#processOperators" prefHeight="35.0" prefWidth="60.0" text="+" textFill="#d87202">
+                    <HBox.margin>
+                        <Insets right="5.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Button>
+            </children>
+            <padding>
+                <Insets left="10.0" right="10.0" />
+            </padding>
+        </HBox>
+    </children>
+</Pane>
